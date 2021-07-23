@@ -14,6 +14,7 @@
 		F5EE464026AA25420051675C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EE463F26AA25420051675C /* Assets.xcassets */; };
 		F5EE464326AA25420051675C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EE464126AA25420051675C /* LaunchScreen.storyboard */; };
 		F5EE464626AA25420051675C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EE464526AA25420051675C /* main.m */; };
+		F5EE464E26AA26000051675C /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EE464D26AA26000051675C /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		F5EE464226AA25420051675C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5EE464426AA25420051675C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5EE464526AA25420051675C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5EE464C26AA26000051675C /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		F5EE464D26AA26000051675C /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				F5EE463926AA25400051675C /* ViewController.h */,
 				F5EE463A26AA25400051675C /* ViewController.m */,
 				F5EE463C26AA25400051675C /* Main.storyboard */,
+				F5EE464C26AA26000051675C /* WebViewController.h */,
+				F5EE464D26AA26000051675C /* WebViewController.m */,
 				F5EE463F26AA25420051675C /* Assets.xcassets */,
 				F5EE464126AA25420051675C /* LaunchScreen.storyboard */,
 				F5EE464426AA25420051675C /* Info.plist */,
@@ -146,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5EE463B26AA25400051675C /* ViewController.m in Sources */,
+				F5EE464E26AA26000051675C /* WebViewController.m in Sources */,
 				F5EE463526AA25400051675C /* AppDelegate.m in Sources */,
 				F5EE464626AA25420051675C /* main.m in Sources */,
 				F5EE463826AA25400051675C /* SceneDelegate.m in Sources */,
